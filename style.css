@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(255, 153, 0);
+    font-size: 85px;
+    font-family: 'DM Serif Display', serif,;
+}
+
+
+#center {
+    margin: auto;
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+}
+
+
