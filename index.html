@@ -6,6 +6,23 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <title>Make Your Own Exercise</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      table {
+        font-family:'Gill Sans';
+        border-collapse: 'collapse';
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      td, th{
+        border: 1px solid #000000;
+        text-align: left;
+        padding: 8px;
+      }
+    
+    </style>
+
   </head>
   <body>
     <div id="center">
@@ -29,13 +46,38 @@
     <br>
     <div id="workout-results">
     </div>
+
+    <h2>Exercise Table</h2>
+    
+    <table>
+      <tr>
+        <th>Exercises</th>
+        <th>Reps</th>
+        <th>Sets</th>
+      </tr>
+      <tr id = "tr1">
+        <td id = "tr1-exercise"></td>
+        <td id = "tr1-sets"></td>
+        <td id = "tr1-reps"></td>
+      </tr>
+      <tr id = "tr2">
+        <td id = "tr2-exercise"></td>
+        <td id = "tr2-sets"></td>
+        <td id = "tr2-reps"></td>
+      </tr>
+      <tr id = "tr3">
+        <td id = "tr3-exercise"></td>
+        <td id = "tr3-sets"></td>
+        <td id = "tr3-reps"></td>
+      </tr>
+      <tr id = "tr4">
+        <td id = "tr4-exercise"></td>
+        <td id = "tr4-sets"></td>
+        <td id = "tr4-reps"></td>
+      </tr>
+  
+    </table>
     <!--Exercise details, this is where the exercise will show up when we pick-->
-    <div id="Your-exercises">
-        <img class> <!-- assign images and src--> 
-        <h2 class = 'name1'> <!-- insert name --> temp name </h2>
-        <h2 class = 'name2'> <!-- insert sets--> temp name  </h2>
-        <h2 class = 'name3'> <!-- insert sets--> temp name  </h2>
-        <h2 class = 'name4'> <!-- insert sets--> temp name  </h2>
     <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
