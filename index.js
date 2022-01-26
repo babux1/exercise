@@ -166,3 +166,27 @@ selectButtonCardio.addEventListener("click", (event) => {
     detailWorkout4Sets.innerText = legWorkouts[4].Sets
 })
 });
+
+    const submitButton = document.getElementById("new-exercises")
+    submitButton.addEventListener("submit", (e) => {
+        const updatedTable = document.getElementById("exercise-table")
+        const newExerciseEntry = document.getElementById("new-exercise-text").value
+        const newSetsEntry = document.getElementById("new-exercise-sets").value
+        const newRepsEntry = document.getElementById("new-exercise-reps").value
+        const newExerciseRow = document.createElement("tr")
+        const newExerciseAdded = document.createElement("td")
+        const newRepsAdded = document.createElement("td")
+        const newSetsAdded = document.createElement("td")
+       
+        updatedTable.appendChild(newExerciseRow)
+
+        newExerciseRow.appendChild(newExerciseAdded)
+        newExerciseRow.appendChild(newRepsAdded)
+        newExerciseRow.appendChild(newSetsAdded)
+
+        newExerciseAdded.innerText = newExerciseEntry
+        newSetsAdded.innerText = newSetsEntry
+        newRepsAdded.innerText = newRepsEntry
+        e.preventDefault()
+    })
+
