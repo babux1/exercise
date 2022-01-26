@@ -2,22 +2,28 @@
   "workouts": [
       { 
         "id": "legs",
-        "Barbell Back Squats": "Barbell Back Squats", 
-        "Barbell Good Mornings": "Barbell Good Mornings", 
-        "Leg Press": "Leg Press",
-        "Leg-Curl": "Leg Curl"
+        "exercise1": "Barbell Back Squats", 
+        "exercise2": "Barbell Good Mornings", 
+        "exercise3": "Leg Press",
+        "exercise4": "Leg Curl",
+        "Sets": 4,
+        "Reps": 12
     },
       { "id": "push",
         "Bench Press": "Bench Press", 
         "Tricep Dips": "Tricep Dips",
         "Dumbbell Lateral Raises": "Dumbbell Lateral Raises" ,
-        "Standing Cable Crossovers": "Standing Cable Crossovers"
+        "Standing Cable Crossovers": "Standing Cable Crossovers",
+        "Sets": 4,
+        "Reps": 12
     }, 
     {   "id": "legs",
         "Deadlift": "Deadlift",
         "Chin Ups": "Chin Ups",
         "Chest Supported Rows" :"Chest Supported Rows",
-        "Barbell Curls": "Barbell Curls"
+        "Barbell Curls": "Barbell Curls",
+        "Sets": 4,
+        "Reps": 12
 
     },
     { 
@@ -25,14 +31,18 @@
         "Forearm Plank":"Forearm Plank",
         "Russian Twist":"Russian Twist",
         "Butterfly Sit-Up":"Butterfly Sit-Up",
-        "Dead Bug":"Dead Bug"
+        "Dead Bug":"Dead Bug",
+        "Sets": 4,
+        "Reps": 12
     },
     { 
         "id":"cardio",
         "Jump Rope": "Jump Rope",
         "Jumping Jacks": "Jumping Jacks",
         "Burpees": "Burpees",
-        "Running": "Running"
+        "Running": "Running",
+        "Sets": 4,
+        "Reps": 12
     }
 ]
    }
