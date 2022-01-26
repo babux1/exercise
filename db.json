@@ -1,0 +1,38 @@
+{
+  "workouts": [
+      { 
+        "id": "legs",
+        "Barbell Back Squats": "Barbell Back Squats", 
+        "Barbell Good Mornings": "Barbell Good Mornings", 
+        "Leg Press": "Leg Press",
+        "Leg-Curl": "Leg Curl"
+    },
+      { "id": "push",
+        "Bench Press": "Bench Press", 
+        "Tricep Dips": "Tricep Dips",
+        "Dumbbell Lateral Raises": "Dumbbell Lateral Raises" ,
+        "Standing Cable Crossovers": "Standing Cable Crossovers"
+    }, 
+    {   "id": "legs",
+        "Deadlift": "Deadlift",
+        "Chin Ups": "Chin Ups",
+        "Chest Supported Rows" :"Chest Supported Rows",
+        "Barbell Curls": "Barbell Curls"
+
+    },
+    { 
+        "id":"core",
+        "Forearm Plank":"Forearm Plank",
+        "Russian Twist":"Russian Twist",
+        "Butterfly Sit-Up":"Butterfly Sit-Up",
+        "Dead Bug":"Dead Bug"
+    },
+    { 
+        "id":"cardio",
+        "Jump Rope": "Jump Rope",
+        "Jumping Jacks": "Jumping Jacks",
+        "Burpees": "Burpees",
+        "Running": "Running"
+    }
+]
+   }
