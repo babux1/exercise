@@ -1,3 +1,7 @@
+body {
+    background-image: url(/gym-fitness-crossfit.jpeg);
+}
+
 h1 {
     color: rgb(255, 153, 0);
     font-size: 85px;
@@ -12,4 +16,18 @@ h1 {
     text-align: center;
 }
 
+#Workout-dropdown {
+    text-align: center;
+}
 
+
+#Your-exercises {
+    text-align: center;
+    width: 300px;
+    border: 2px solid rgb(255, 174, 0);
+    padding: 100px;
+    margin: 100px;
+    background-color: white;
+  }
+
+ 
