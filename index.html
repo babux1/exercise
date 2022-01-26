@@ -7,6 +7,25 @@
     <title>Make Your Own Exercise</title>
     <link rel="stylesheet" href="style.css" />
     <style>
+      .exercise-input {
+            border-style: solid;
+            border-color: black;
+            border-width: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px
+        }
+       #new-exercises {
+            border-style: solid;
+            border-color: black;
+            border-width: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        #submit-button {
+            margin-bottom: 5%;
+        }
       table {
         font-family:'Gill Sans';
         border-collapse: 'collapse';
@@ -79,6 +98,18 @@
   
     </table>
    
+    <div class = "exercise-input">
+      <form id="new-exercises" style = "border:black">
+          <h3>Add New Exercise</h3>
+          <label for="exercise">Exercise: </label><br>
+          <input type="text" name="exercise" id="new-exercise-text" /><br><br>
+          <label for="sets">Sets: </label><br>
+          <input type="text" name="sets" id="new-exercise-sets" /><br><br>
+          <label for="reps">Reps: </label><br>
+          <input type="text" name="reps" id="new-exercise-reps" /><br><br>
+          <input type = "submit" id = "submit-button"/>
+      </form>
+      </div>
     <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
