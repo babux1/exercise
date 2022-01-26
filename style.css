@@ -30,4 +30,22 @@ h1 {
     background-color: white;
   }
 
- 
+  #right {
+      height: 450px;
+      width: 500px;
+      margin: 20px;
+      padding: 0px;
+      text-align: center;
+      border: 5px solid red
+  }
+  
+  
+  h2 {
+      color: rgb(255, 60, 0);
+      font-size: 35px;
+      font-family: 'DM Serif Display', serif,;
+      padding: 10px;
+      text-align: center;
+      
+  }
+  
