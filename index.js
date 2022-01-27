@@ -179,16 +179,24 @@ selectButtonCardio.addEventListener("click", (event) => {
         const newExerciseAdded = document.createElement("td")
         const newRepsAdded = document.createElement("td")
         const newSetsAdded = document.createElement("td")
+        const deleteButton = document.createElement("button")
        
         updatedTable.appendChild(newExerciseRow)
 
         newExerciseRow.appendChild(newExerciseAdded)
         newExerciseRow.appendChild(newSetsAdded)
         newExerciseRow.appendChild(newRepsAdded)
+        newExerciseRow.appendChild(deleteButton)
 
         newExerciseAdded.innerText = newExerciseEntry
         newSetsAdded.innerText = newSetsEntry
         newRepsAdded.innerText = newRepsEntry
+        deleteButton.innerText = "x"
+
+        deleteButton.addEventListener("click", ()=> {
+            newExerciseRow.remove();
+        })
         e.preventDefault()
     })
+    
 })
