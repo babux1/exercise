@@ -2,10 +2,10 @@
   "workouts": [
       { 
         "id": "legs",
-        "exercise1": "Barbell Back Squats", 
-        "exercise2": "Barbell Good Mornings", 
+        "exercise1": "Barbell Back Squats",
+        "exercise2": "Barbell Good Mornings",
         "exercise3": "Leg Press",
-        "exercise4": "Leg Curl",
+        "exercise4": "Leg Curls",
         "Sets": 4,
         "Reps": 12
     },
