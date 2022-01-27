@@ -183,8 +183,8 @@ selectButtonCardio.addEventListener("click", (event) => {
         updatedTable.appendChild(newExerciseRow)
 
         newExerciseRow.appendChild(newExerciseAdded)
-        newExerciseRow.appendChild(newRepsAdded)
         newExerciseRow.appendChild(newSetsAdded)
+        newExerciseRow.appendChild(newRepsAdded)
 
         newExerciseAdded.innerText = newExerciseEntry
         newSetsAdded.innerText = newSetsEntry
