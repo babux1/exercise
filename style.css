@@ -54,4 +54,41 @@ h4 {
   }
   #exercise-table {
       table-layout: fixed;
+
   }
+  .exercise-input {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+#new-exercises {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+}
+#submit-button {
+    margin-bottom: 5%;
+}
+table {
+font-family:'Gill Sans';
+border-collapse: 'collapse';
+width: 50%;
+height: 50%;
+margin-right: auto;
+margin-left: auto;
+}
+
+td, th{
+border: 1px solid white;
+background-color: white;
+text-align: left;
+padding: 8px;
+width: 33.34%
+}
