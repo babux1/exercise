@@ -14,7 +14,7 @@
         "exercise2": "Tricep Dips",
         "exercise3": "Dumbbell Lateral Raises" ,
         "exercise4": "Standing Cable Crossovers",
-        "Sets": 4,
+        "Sets": 5,
         "Reps": 12
     }, 
     {   "id": "pull",
@@ -33,7 +33,7 @@
         "exercise3":"Butterfly Sit-Up",
         "exercise4":"Dead Bug",
         "Sets": 4,
-        "Reps": 12
+        "Reps": 15
     },
     { 
         "id":"cardio",
@@ -42,7 +42,7 @@
         "exercise3": "Burpees",
         "exercise4": "Running",
         "Sets": 4,
-        "Reps": 12
+        "Reps": "30 min"
     }
 ]
    }

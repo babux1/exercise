@@ -52,4 +52,6 @@ h4 {
       text-align: center;
       
   }
-  
+  #exercise-table {
+      table-layout: fixed;
+  }
