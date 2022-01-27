@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", e =>{
+
 const BASE_URL = "http://localhost:3000/";
 
 fetch(BASE_URL+ "workouts")
@@ -189,4 +191,4 @@ selectButtonCardio.addEventListener("click", (event) => {
         newRepsAdded.innerText = newRepsEntry
         e.preventDefault()
     })
-
+})
