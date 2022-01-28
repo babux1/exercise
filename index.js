@@ -48,7 +48,6 @@ selectButtonWorkout.forEach(workoutPreselected => {
 
 })
 });
-
     const submitButton = document.getElementById("new-exercises")
     submitButton.addEventListener("submit", (e) => {
         const updatedTable = document.getElementById("exercise-table")
@@ -78,6 +77,5 @@ selectButtonWorkout.forEach(workoutPreselected => {
         })
         e.preventDefault()
     })
-    
 })
 })
