@@ -2,45 +2,30 @@
   "workouts": [
       { 
         "id": "legs",
-        "exercise1": "Barbell Back Squats",
-        "exercise2": "Barbell Good Mornings",
-        "exercise3": "Leg Press",
-        "exercise4": "Leg Curls",
+        "exercises": ["Barbell Back Squats", "Barbell Good Mornings", "Leg Press", "Leg Curls"],
         "Sets": 4,
         "Reps": 12
     },
       { "id": "push",
-        "exercise1": "Bench Press", 
-        "exercise2": "Tricep Dips",
-        "exercise3": "Dumbbell Lateral Raises" ,
-        "exercise4": "Standing Cable Crossovers",
+        "exercises": ["Bench Press", "Tricep Dips", "Dumbbell Lateral Raises", "Standing Cable Crossovers"],
         "Sets": 5,
         "Reps": 12
     }, 
     {   "id": "pull",
-        "exercise1": "Deadlift",
-        "exercise2": "Chin Ups",
-        "exercise3" :"Chest Supported Rows",
-        "exercise4": "Barbell Curls",
+        "exercises": ["Deadlift", "Chin Ups Chest", "Supported Rows", "Barbell Curls"],
         "Sets": 4,
         "Reps": 12
 
     },
     { 
         "id":"core",
-        "exercise1":"Forearm Plank",
-        "exercise2":"Russian Twist",
-        "exercise3":"Butterfly Sit-Up",
-        "exercise4":"Dead Bug",
+        "exercises": ["Forearm Plank", "Russian Twist", "Butterfly Sit-Up","Dead Bug"],
         "Sets": 4,
         "Reps": 15
     },
     { 
         "id":"cardio",
-        "exercise1": "Jump Rope",
-        "exercise2": "Jumping Jacks",
-        "exercise3": "Burpees",
-        "exercise4": "Running",
+        "exercises": ["Jump Rope", "Jumping Jacks", "Burpees", "Running"],
         "Sets": 4,
         "Reps": "30 min"
     }
